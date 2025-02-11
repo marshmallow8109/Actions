@@ -1,4 +1,4 @@
-name: gitacotions-test
+name: gitactions-test
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
   pull_request:
     branches:
       - main
-  workflow-dispatch:
+  workflow_dispatch:
 
 jobs:
   hello:
@@ -16,4 +16,3 @@ jobs:
       - uses: actions/checkout@v4
       - name: hello world
         run: echo "hello world"
-        shell: bash
