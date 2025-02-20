@@ -15,3 +15,9 @@ const getrandom = (max) => {
 };
 
 getrandom(7);
+
+const getrandom2 = (max) => {
+  return Math.floor(Math.random() * max);
+};
+
+getrandom2(17);
